@@ -1,3 +1,10 @@
+## 0.2.2
+
+- Changed JCenter to Maven
+- Upgraded Gradle Versions
+- Merged PR #8, #10, #14
+- Changed name to disk_space_plus
+
 ## 0.1.1
 
 - Updated Kotlin Version
