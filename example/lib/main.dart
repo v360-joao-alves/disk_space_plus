@@ -19,13 +19,13 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    initDiskSpace();
+    initDiskSpacePlus();
   }
 
-  Future<void> initDiskSpace() async {
+  Future<void> initDiskSpacePlus() async {
     double diskSpace = 0;
 
-    diskSpace = await DiskSpace.getFreeDiskSpace ?? 0;
+    diskSpace = await DiskSpacePlus.getFreeDiskSpace ?? 0;
 
     List<Directory> directories;
     Map<Directory, double> directorySpace = {};
@@ -43,7 +43,8 @@ class _MyAppState extends State<MyApp> {
     }
 
     for (var directory in directories) {
-      var space = await DiskSpace.getFreeDiskSpaceForPath(directory.path) ?? 0;
+      var space =
+          await DiskSpacePlus.getFreeDiskSpaceForPath(directory.path) ?? 0;
       directorySpace.addEntries([MapEntry(directory, space)]);
     }
 

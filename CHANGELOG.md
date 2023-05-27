@@ -1,3 +1,7 @@
+## 0.2.3
+
+- Updated Class Name 
+
 ## 0.2.2
 
 - Changed JCenter to Maven
