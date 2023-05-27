@@ -1,5 +1,5 @@
-name: disk_space_example
-description: Demonstrates how to use the disk_space plugin.
+name: disk_space_plus_example
+description: Demonstrates how to use the disk_space_plus plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  disk_space:
+  disk_space_plus:
     path: ../
   path_provider: ^2.0.15
 

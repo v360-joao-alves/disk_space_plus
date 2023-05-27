@@ -1,13 +1,13 @@
-package de.appgewaltig.disk_space_example
+package com.piccmaq.disk_space_plus_example
 
 import android.os.Bundle
-import de.appgewaltig.disk_space.DiskSpacePlugin
+import com.piccmaq.disk_space_plus.DiskSpacePlusPlugin
 import io.flutter.app.FlutterActivity
 
 
 class EmbeddingV1Activity : FlutterActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        DiskSpacePlugin.registerWith(registrarFor("de.appgewaltig.disk_space.DiskSpacePlugin"))
+        DiskSpacePlusPlugin.registerWith(registrarFor("com.piccmaq.disk_space_plus.DiskSpacePlusPlugin"))
     }
 }

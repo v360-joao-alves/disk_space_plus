@@ -1,9 +1,9 @@
-import 'package:disk_space/disk_space.dart';
+import 'package:disk_space_plus/disk_space_plus.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  const channel = MethodChannel('disk_space');
+  const channel = MethodChannel('disk_space_plus');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

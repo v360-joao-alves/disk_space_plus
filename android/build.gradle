@@ -1,4 +1,4 @@
-group 'de.appgewaltig.disk_space'
+group 'com.piccmaq.disk_space_plus'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -27,7 +27,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'de.appgewaltig.disk_space'
+    namespace 'com.piccmaq.disk_space_plus'
 
     compileSdkVersion 30
 

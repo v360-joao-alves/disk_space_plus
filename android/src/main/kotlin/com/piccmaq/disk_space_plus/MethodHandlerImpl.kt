@@ -1,4 +1,4 @@
-package de.appgewaltig.disk_space
+package com.piccmaq.disk_space_plus
 
 import android.os.Environment
 import android.os.StatFs
